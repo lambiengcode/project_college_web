@@ -1,0 +1,140 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{   
+    /*background-color: #2D2D2D;*/
+    background-image: linear-gradient(180deg, #161616, #000 );
+}
+header{
+    display: block;   
+}
+.nav-logo{
+    width: 120px;
+    margin-left: 100px;
+}
+
+.navbar{
+    background-color: #000000 !important;
+    overflow: hidden;
+    height: 9%;
+    
+}
+.navbar-nav{
+    margin-right: 100px;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+.navbar-login {
+    margin-right: 50px;
+    letter-spacing: 1px;
+    font-weight: 600;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.navbar-login a{
+    color: #808080;
+    text-decoration: none;
+    margin-left: 3px;
+}
+
+.navbar-login a:hover{
+    color: #fff;
+}
+.icon-car{
+    margin-right: 10px;
+}
+.navbar-list .navbar-nav .nav-link:hover{
+    color: #fff;
+}
+.navbar-list{
+    font-size: 18px;
+}
+.main-container .container{
+    max-width: 91% !important;
+    background-color: #fff;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    
+}
+
+.img-slide{
+    height: 700px;
+    vertical-align: middle;
+    border: none;
+    
+}
+h2{
+    margin: 50px 0px 50px 70px;
+    letter-spacing: 1px;
+}
+.nav{
+    margin: 20px 0px 50px 70px;
+    
+}
+.nav .nav-link{
+    color: #000;
+    height: 60px;
+    width: 175px;
+    text-align: center;
+    line-height: 40px;
+    font-weight: 700;
+}
+.nav .nav-link.active {
+    background-color: #262626!important;
+    color: #fff;
+    
+}
+.nav-item{
+    color: #000 !important;
+    border: 0.2px solid #000;
+    
+}
+.card{
+    margin: 20px 0px 20px 0px;
+}
+.space{
+    
+    width:89vw;
+    height:300px;
+    
+}
+.contact{
+    margin: 100px 250px 50px 250px;
+}
+.card-contact{
+    width: 300px;
+    height: 150px;
+    background-color: #2A2A2A;
+    color: #fff;
+}
+.img-contact{
+    width: 100px;
+}
+.footer-content{
+    background-color:#1F1F1F ;
+    margin: 10px 150px 0px 150px;
+    color: #fff;
+    
+}
+.footer-content .row a{
+    color: #919995;
+    text-decoration: none;
+    
+}
+.footer-content .row a:hover{
+    color: #00ADE2;
+}
+.jumbotron{
+    height: 250px;
+    margin: 10px 150px 50px 150px !important;
+    padding-top: 45px;
+    padding-left: 0px;
+}
+.footer-content-item{
+    line-height: 30px;
+}

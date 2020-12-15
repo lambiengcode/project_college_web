@@ -1,0 +1,62 @@
+﻿
+@model mercedes_benz.Models.Account
+@{
+    ViewBag.Title = "Login";
+    Layout = "~/Views/_LayoutPage1.cshtml";
+}
+
+<body>
+
+    <section class="w3l-login">
+        <div class="overlay">
+            <div class="wrapper">
+
+                <div class="form-section">
+
+                    <h3>Login</h3>
+                    <h6>To continue with Us</h6>
+                    <form method="post" action="@Url.Action("Login","Login")" class="signin-form">
+
+                        @Html.AntiForgeryToken()
+
+                        <div class="form-input">
+
+                            <center>
+                                @Html.TextBoxFor(m => m.username, "", new
+                                {
+                                    @class = "form-control",
+                                    @placeholder = "Username"
+                                })
+                            </center>
+                        </div>
+                        <div class="form-input">
+
+                            <center>
+
+                                @Html.PasswordFor(m => m.password, new
+                           {
+                               @class = "form-control",
+                               @placeholder = "Password",
+
+                           })
+                            </center>
+
+                        </div>
+                        <button type="submit" class="btn btn-primary theme-button mt-4" value="result">Log in</button>
+                        <div class="new-signup">
+                            <a href="#reload" class="signuplink">Forgot username or password?</a>
+                        </div>
+                    </form>
+                    <p class="signup">Don’t have account yet? <a href="@Url.Action("Index", "Register")" class="signuplink">Sign Up</a></p>
+                </div>
+            </div>
+        </div>
+        <div id='stars'></div>
+        <div id='stars2'></div>
+        <div id='stars3'></div>
+    </section>
+
+
+
+
+</body>
